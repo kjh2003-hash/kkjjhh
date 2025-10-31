@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Typing Game Upgrade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>💬 타이핑 게임 (업그레이드)</h1>
+
+  <div id="quote"></div>
+
+  <input type="text" id="typed-value" placeholder="문장을 그대로 입력하세요">
+  <button id="start-button">게임 시작</button>
+
+  <div id="message"></div>
+  <p id="best-score">🏅 최고 기록: <span id="best-time">0.0</span>초</p>
+
+  <!-- 결과 모달 -->
+  <div id="result-modal" class="modal">
+    <div class="modal-content">
+      <h2>🎉 결과</h2>
+      <p id="result-text"></p>
+      <button id="close-modal">닫기</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
